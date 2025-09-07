@@ -57,7 +57,7 @@ Use the --output parameter to specify a different destination for the fixed file
 ```sh
 python mp4_fix_script.py "path/to/source/folder" --output "path/to/results/folder"
 ```
-Example: python mp4_fix_script.py "~/Movies/My_Videos" --output "~/Desktop/Fixed_Videos"
+Example: python mp4_fix_script.py "/Movies/My_Videos" --output "/Desktop/Fixed_Videos"
 
 After the script finishes, you can import the new files into DaVinci Resolve. The audio track should now be visible and working! 🎉
 
