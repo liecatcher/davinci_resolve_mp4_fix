@@ -41,10 +41,25 @@ You need to have **FFmpeg** installed on your system. It's a free and powerful t
 ---
 
 ### Usage Options ⚙️
-
 ### Option 1: Save to a New `output` Folder
 
 The script will automatically create an `output` folder inside your video folder and place the fixed files there.
 
 ```sh
 python mp4_fix_script.py "path/to/your/videos"
+```
+Example: python mp4_fix_script.py "~/Movies/My_Videos"
+
+### Option 2: Save to a Different Folder
+
+Use the --output parameter to specify a different destination for the fixed files.
+
+```sh
+python mp4_fix_script.py "path/to/source/folder" --output "path/to/results/folder"
+```
+Example: python mp4_fix_script.py "~/Movies/My_Videos" --output "~/Desktop/Fixed_Videos"
+
+After the script finishes, you can import the new files into DaVinci Resolve. The audio track should now be visible and working! 🎉
+
+
+
